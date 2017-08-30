@@ -5,13 +5,14 @@ import java.util.Map;
 
 /**
  * https://www.careercup.com/question?id=5205996814204928
- * @author santh
+ * See {@linktourl  https://www.careercup.com/question?id=5205996814204928}
+ * @author santhosh
  *
  */
 public class KSubsequence_Expedia {
 	public static void main(String[] args) {
 		int[] arr = {1,2,3,4,1};
-		//findSequenceDivisibleBy(arr, 3);
+		findSequenceDivisibleBy(arr, 3);
 		//function(arr, 3);
 	}
 	private static void findSequenceDivisibleBy(int[] arr, int num) {

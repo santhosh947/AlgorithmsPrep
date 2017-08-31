@@ -15,7 +15,7 @@ public class pascalTriangle {
 
 	    long stopTime = System.currentTimeMillis();
 	      long elapsedTime = stopTime - startTime;
-	      System.out.println("*****************************************8");
+	      System.out.println("*****************************************");
 	      System.out.println(elapsedTime);
 	    scanner.close();
 	  }

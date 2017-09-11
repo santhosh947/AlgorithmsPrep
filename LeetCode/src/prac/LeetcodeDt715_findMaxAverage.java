@@ -1,6 +1,6 @@
 package prac;
 
-public class LeetcodeDt715 {
+public class LeetcodeDt715_findMaxAverage {
 	public static void main(String[] args) {
 		int[] a= {-1};
 		

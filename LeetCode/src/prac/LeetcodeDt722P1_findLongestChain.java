@@ -3,7 +3,7 @@ package prac;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LeetcodeDt722P1 {
+public class LeetcodeDt722P1_findLongestChain {
 	public static void main(String[] args) {
 		/*
 		 * int[] a={1,2,2,4}; int[] aa= findErrorNums(a); for(int i: aa) {

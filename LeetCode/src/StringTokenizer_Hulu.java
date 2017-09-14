@@ -16,7 +16,7 @@ public class StringTokenizer_Hulu {
 		String s2="abc(e{df}}g)"; //op: ["abc", "e{df}}g"]
 
 		//List<String> res = findListOfStrings(s1);
-		String[] r = extractSubstrings(s2);
+		String[] r = extractSubstrings(s1);
 
 		for (String ss : r) {
 			System.out.println(ss);

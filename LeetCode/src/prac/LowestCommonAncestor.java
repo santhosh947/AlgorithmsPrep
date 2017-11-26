@@ -59,7 +59,12 @@ public class LowestCommonAncestor {
 			return root;
 		TreeNode left=LCARecurrsion(root.left, p, q);
 		TreeNode right = LCARecurrsion(root.right, p, q);
-		return (left==null) ? right : (right==null) ? left : root;
+	//	return (left==null) ? right : (right==null) ? left : root;
+		
+		if(left!=null && right!=null)
+			return root;
+		
+		return left!=null ? left : right;
 	}
 
 	public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {

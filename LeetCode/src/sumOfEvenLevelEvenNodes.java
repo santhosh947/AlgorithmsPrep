@@ -132,13 +132,38 @@ class sumOfEvenLevelEvenNodes {
     ll1.left=lev3_l1;
     ll1.right=lev3_r1;
     
+    printLevelOrder(root);
     
-    System.out.println(sumOfEvenLevelEvenNodes(root));
+    //System.out.println(sumOfEvenLevelEvenNodes(root));
     
    
     
   }
   
+  
+  public static void printLevelOrder(Node root)
+  {
+	  Queue<Node> q= new LinkedList<Node>();
+	  if(root==null)
+		  return;
+	  q.add(root);
+	  while(!q.isEmpty())
+	  {
+		  int num=q.size();
+		  for(int i=0;i<num;i++)
+		  {
+			  if(q.peek().left!=null)
+			  {
+				  q.add(q.peek().left);
+			  }
+			  if(q.peek().right!=null)
+			  {
+				  q.add(q.peek().right);
+			  }
+			  System.out.println(q.poll().val + " ");
+		  }
+	  }
+  }
   public static int sumOfEvenLevelEvenNodes(Node root)
   {
     int result=0;

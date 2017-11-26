@@ -33,10 +33,10 @@ public class CTCI_CH10_P1 {
 		 * System.out.print(res.get(i).get(j) + " "); } System.out.println(); }
 		 */
 
-		int[] nums = { 4, 5, 6, 7, 0, 1, 2 };
+		int[] nums = { 4, 5, 6, 0, 1, 2,3 };
 		int[] n={5,1,3};
-		
-		System.out.println(search(nums, 1));
+		int[] aa= {1};
+		System.out.println(LeetCode_search(nums, 1));
 	}
 
 	public static List<List<String>> groupAnagrams2(String[] strs) {
@@ -93,13 +93,47 @@ public class CTCI_CH10_P1 {
 		String t_new = new String(ch);
 		return t_new.equals(s_new);
 	}
-	
-	public static int search(int[] nums, int target) {
+
+	public static int LeetCode_search(int[] nums, int target) {
+        int start = 0;
+        int end = nums.length - 1;
+        while (start <= end){
+            int mid = (start + end) / 2;
+            if (nums[mid] == target)
+                return mid;
+        
+            if (nums[start] <= nums[mid]){
+                 if (target < nums[mid] && target >= nums[start]) 
+                    end = mid - 1;
+                 else
+                    start = mid + 1;
+            } 
+        
+            if (nums[mid] <= nums[end]){
+                if (target > nums[mid] && target <= nums[end])
+                    start = mid + 1;
+                 else
+                    end = mid - 1;
+            }
+        }
+        return -1;
+    }
+	static int search(int[] nums, int target) {
+		if(nums.length==0)
+			return -1;
+		
+		if(nums.length==1)
+		{
+			if(nums[0]==target)
+				return 0;
+			else
+				return -1;
+		}
 		int pv = findPvt(nums,0,nums.length-1);
 		//System.out.println(pv);
-		if(pv>0 && nums[0]<=target)
+		if(pv>0 && nums[0]<=target && nums[pv]>=target)
 			return BinarySearch(nums, 0, pv, target);
-		else if(pv<nums.length-1 && nums[pv]<=target)
+		else if(pv+1<nums.length-1 && nums[pv+1]<=target)
 			return BinarySearch(nums, pv, nums.length, target);
 		return -1;
 		

@@ -15,10 +15,15 @@ public class BST {
 		Node rleaf4 = new Node(7, null, null);
 
 		Node rleaf1 = new Node(6, lleaf3, rleaf4);
-		Node rleaf2 = new Node(3, null, null);
+		Node rleaf2 = new Node(10, null, null);
 
 		Node lleaf2 = new Node(2, lleaf1, rleaf2);
 		Node root = new Node(4, lleaf2, rleaf1);
+		
+		System.out.println(isValidBST(root));
+		System.out.println(checkBST(root));
+
+		System.out.println(isValidBST2(root));
 
 		/*System.out.println(checkBST(root));
 		System.out.print("Inorder ");
@@ -78,6 +83,43 @@ public class BST {
 		System.out.println(longestConsecutive(root));
 	}
 	
+	public static boolean isValidBST2(Node root) {
+        return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+    
+    public static boolean isValidBST(Node root, long minVal, long maxVal) {
+        if (root == null) return true;
+        if (root.data >= maxVal || root.data <= minVal) 
+        	return false;
+        //return isValidBST(root.left, minVal, root.data) && isValidBST(root.right, root.data, maxVal);
+        
+        if(isValidBST(root.left, minVal, root.data) && isValidBST(root.right, root.data, maxVal))
+        {
+        	return true;
+        }
+        else
+        	return false;
+    }
+	
+	public static boolean isValidBST (Node rt){
+		   Stack<Node> stack = new Stack<Node> ();
+		   Node cur = rt ;
+		   Node pre = null ;		   
+		   while (!stack.isEmpty() || cur != null) {			   
+			   if (cur != null) {
+				   stack.push(cur);
+				   cur = cur.left ;
+			   } else {				   
+				   Node p = stack.pop() ;
+				   if (pre != null && p.data <= pre.data) {					   
+					   return false ;
+				   }				   
+				   pre = p ;					   
+				   cur = p.right ;
+			   }
+		   }
+		   return true ; 
+	   }
 	static List<Integer> treeval = new ArrayList<>();
 	public static int longestConsecutive(Node nd)
 	{

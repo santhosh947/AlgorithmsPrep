@@ -2,7 +2,7 @@ package prac;
 
 public class LinkedListInterSection {
 
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA==null || headB==null)
             return null;
 
@@ -26,7 +26,7 @@ public class LinkedListInterSection {
         return null;        
     }
     
-    public ListNode addExtraNodes(int len, ListNode hd)
+    public static ListNode addExtraNodes(int len, ListNode hd)
     {
         ListNode temp=hd;
         while(len>0)
@@ -39,7 +39,7 @@ public class LinkedListInterSection {
         return temp;
     }
     
-    public int findLen(ListNode hd)
+    public static int findLen(ListNode hd)
     {
         int len=0;
         if(hd==null)

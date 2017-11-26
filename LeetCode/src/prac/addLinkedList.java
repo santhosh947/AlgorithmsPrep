@@ -32,13 +32,13 @@ public class addLinkedList {
 
 		linkedList11 l1 = new linkedList11(1);
 		linkedList11 l2 = new linkedList11(2);
-		//linkedList11 l3 = new linkedList11(3);
+		linkedList11 l3 = new linkedList11(3);
 		linkedList11 m1 = new linkedList11(9);
 		linkedList11 m2 = new linkedList11(8);
-		//linkedList11 m3 = new linkedList11(7);
+		linkedList11 m3 = new linkedList11(7);
 
 		l1.next = l2;
-	//	l2.next = l3;
+		l2.next = l3;
 
 		m1.next = m2;
 		//m2.next = m3;
@@ -46,7 +46,8 @@ public class addLinkedList {
 		add(l1, m1);
 
 		try
-		{output = new linkedList11(op.pop());
+		{
+		output = new linkedList11(op.pop());
 		linkedList11 temp = output;
 		int len=op.size();
 		// output.next=temp;
@@ -130,7 +131,6 @@ public class addLinkedList {
 			carry = (sum >= 10) ? 1 : 0;
 			int base = (sum > 10) ? sum % 10 : 0;
 			op.add(base);
-
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}

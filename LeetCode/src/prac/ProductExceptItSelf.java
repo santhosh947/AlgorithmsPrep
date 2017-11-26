@@ -14,7 +14,13 @@ public class ProductExceptItSelf {
 		int[] res= productExceptSelf_2(arr);
 		for(int i:res)
 		{
-			System.out.println(i);
+			System.out.print(i +" ");
+		}
+		System.out.println();
+		int[] res2= prd(arr);
+		for(int i:res2)
+		{
+			System.out.print(i +" ");
 		}
 	}
 	public static int[] productExceptSelf(int[] nums) {
@@ -49,4 +55,44 @@ public class ProductExceptItSelf {
         }
         return res;
     }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static int[] prd(int[] n)
+	{
+		int[] res=new int[n.length];
+		int m=1;
+		for(int i=0;i<n.length;i++)
+		{
+			res[i]=m;
+			m*=n[i];
+		}
+		m=1;
+		for(int i=n.length-1;i>=0;i--)
+		{
+			res[i]*=m;
+			m*=n[i];
+		}
+		return res;
+	}
 }

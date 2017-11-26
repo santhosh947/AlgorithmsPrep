@@ -29,12 +29,34 @@ public class LinkedListCopy {
 		l3.next=l4;
 		l4.random=l4;
 		
-		st.push(l1);
-		copy();
+		/*st.push(l1);
+		copy();*/
+		display(l1);
+		swapPairs(l1);
+		display(l1);
+	}
 
+	
+	private static void display(LLNode l) {
+		System.out.println();
+		LLNode l1=l;
+		while(l1!=null)
+		{
+			System.out.print(l1.data + " ");
+			l1=l1.next;
+		}
 		
 	}
 
+
+	public static LLNode swapPairs(LLNode head) {
+        if ((head == null)||(head.next == null))
+            return head;
+        LLNode n = head.next;
+        head.next = swapPairs(head.next.next);
+        n.next = head;
+        return n;
+    }
 	static LLNode newHead;
 	static Stack<LLNode> st;
 	private static void copy() {

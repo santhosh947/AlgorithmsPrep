@@ -9,16 +9,32 @@ public class LeetcodeSubstring {
 		// dvdf
 		// bbbbb
 		StringBuilder st = new StringBuilder();
-		System.out.println("abcabcbb " + lengthOfLongestSubstring2("abcabcbb"));
+		System.out.println("abcabcbb " + lengthOfLongestSubstring3("abcabcbb"));
 		// pwwkew
-		System.out.println("pwwkew " + lengthOfLongestSubstring2("pwwkew"));
-		System.out.println("dvdf " + lengthOfLongestSubstring2("dvdf"));
+		/*System.out.println("pwwkew " + lengthOfLongestSubstring3("pwwkew"));
+		System.out.println("dvdf " + lengthOfLongestSubstring3("dvdf"));
 
-		System.out.println("bbbbb " + lengthOfLongestSubstring2("bbbbb"));
+		System.out.println("bbbbb " + lengthOfLongestSubstring3("bbbbb"));
 
-		System.out.println("au " + lengthOfLongestSubstring2("au"));
+		System.out.println("au " + lengthOfLongestSubstring3("au"));*/
 
 	}
+	
+	public static int lengthOfLongestSubstring3(String str) {
+        int len = str.length();
+	    Map<Character, Integer> hm = new HashMap<Character,Integer>();
+	    int res=0;
+	    for(int i=0, j=0;i<len;i++)
+	    {
+	        if(hm.containsKey(str.charAt(i)))
+	        {
+	            j=Math.max(j,hm.get(str.charAt(i))+1);
+	        }
+	        hm.put(str.charAt(i), i);
+	        res=Math.max(res, i-j+1);
+	    }
+	    return res;
+    }
 
 	public static int lengthOfLongestSubstring2(String str) {
 		HashMap<String, Boolean> hm = new HashMap<String, Boolean>();

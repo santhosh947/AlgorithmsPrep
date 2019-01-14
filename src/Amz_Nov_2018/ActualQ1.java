@@ -34,9 +34,9 @@ public class ActualQ1 {
 		List<List<Integer>> allLocations = new ArrayList<List<Integer>>();
 
 		allLocations.add(l1);
-		allLocations.add(l2);
-		allLocations.add(l3);
 		allLocations.add(l4);
+		allLocations.add(l3);
+		allLocations.add(l2);
 
 		List<List<Integer>> nearBy = nearestXsteakHouses(4, allLocations, 2);
 		for (List<Integer> loc : nearBy) {

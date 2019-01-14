@@ -106,14 +106,14 @@ public class DepthFirstSearchExample {
 		DepthFirstSearchExample dfsExample = new DepthFirstSearchExample();
 
 		System.out.println("The DFS traversal of the graph using stack ");
-		dfsExample.dfsUsingStack(adjacency_matrix, node40);
+	//	dfsExample.dfsUsingStack(adjacency_matrix, node40);
 
 		System.out.println();
 
 		clearVisitedFlags();
 
 		System.out.println("The DFS traversal of the graph using recursion ");
-		//dfsExample.dfs(adjacency_matrix, node40);
+		dfsExample.dfs(adjacency_matrix, node40);
 
 	}
 

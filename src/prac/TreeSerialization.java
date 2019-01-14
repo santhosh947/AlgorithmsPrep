@@ -20,11 +20,22 @@ public class TreeSerialization {
 		hd.right = r1;
 		r1.left = r1l;
 		r1.right = r1r;
+		printPreOrder(hd);
+		System.out.println();
+		printPostOrder(hd);
+		System.out.println();
+		printInorder(hd);
+		System.out.println();
 		String s=serialize2(hd);
 		System.out.println(s);
 		TreeNode newrt = deserialize2(s);
+		TreeNode newrt2 = deserialize3_dt_1_9_2019(s);
+
 		String t = serialize2(newrt);
-		if(s.equals(t))
+		
+		String t2 = serialize2(newrt);
+
+		if(s.equals(t2))
 		{
 			System.out.println("EQUALS");
 		}
@@ -35,6 +46,70 @@ public class TreeSerialization {
 	}
 	
 	
+	private static TreeNode deserialize3_dt_1_9_2019(String s) {
+		
+		TreeNode t2 = null;
+		if(s==null || s=="" || s.length()==0)
+			return t2;
+		
+		String[] str_arr = s.split(spliter);
+		if(str_arr.length == 0)
+			return t2;
+		
+		Queue qu = new LinkedList();
+		for(String st: str_arr)
+			qu.add(st);
+		return buildTree(qu);
+	}
+
+
+	private static TreeNode buildTree(Queue qu) {
+		if(qu.isEmpty())
+			return null;
+		
+		String temp = (String) qu.poll();
+		
+		if(temp.equals(NN))
+		{
+			return null;
+		}
+			TreeNode t = new TreeNode(Integer.valueOf(temp));		
+		t.left = buildTree(qu);
+		t.right = buildTree(qu);
+		return t;
+	}
+
+
+	private static void printInorder(TreeNode hd) {
+		if(hd==null)
+			return;
+		printInorder(hd.left);
+		System.out.print(hd.val + "->");
+		printInorder(hd.right);
+	}
+
+
+	private static void printPostOrder(TreeNode hd) {
+		if(hd==null)
+			return;
+		printInorder(hd.left);
+		printInorder(hd.right);
+
+		System.out.print(hd.val + "->");
+
+	}
+
+	private static void printPreOrder(TreeNode hd) {
+		if(hd==null)
+			return;
+		System.out.print(hd.val + "->");
+
+		printInorder(hd.left);
+		printInorder(hd.right);
+
+	}
+
+
 	private static final String spliter = ",";
     private static final String NN = "X";
 

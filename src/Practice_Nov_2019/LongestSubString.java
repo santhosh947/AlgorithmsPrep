@@ -11,7 +11,7 @@ import java.util.*;
  **/
 public class LongestSubString {
 	public static void main(String[] args) {
-		System.out.println(lengthOfLongestSubstring("abcabcbb"));
+		System.out.println(lengthOfLongestSubstring_2("abba"));
 	}
 
 	public static int lengthOfLongestSubstring_1(String s) {
@@ -21,7 +21,9 @@ public class LongestSubString {
 		
 		if(s.length() == 1)
 			return 1;
+		
 		HashSet<Character> hm = new HashSet<Character>();
+		
 		int ctr = 0;
 		
 		for(int i=0; i< s.length()-1; i++)
@@ -62,5 +64,73 @@ public class LongestSubString {
 	    }
 	    return res;
 	}
+	
+	public static int lengthOfLongestSubstring_2(String s)
+	{
+		  if(s==null)
+	            return 0;
+	        if(s.length() == 1)
+	            return 1;
+	        
+	        Map<Character, Integer> hm = new HashMap<Character, Integer>();
+	        int c = 0;
+	        int res = 0;
+	        
+	        for(int i=0, j=0;i<s.length() && j<s.length();)
+	        {
+	          if(hm.containsKey(s.charAt(j))) 
+	          {
+		         if(c > res)
+		            res = c;
+	             i = Math.max(i,(int)hm.get(s.charAt(j))+1);
+	             hm.put(s.charAt(j),j);
+	             c = j - i + 1;
+	             j++;
+	             
 
+	          }
+	          else
+	          {
+	              c++;
+		          hm.put(s.charAt(j),j);
+	              j++;
+	          }
+	        }
+	        if(c> res)
+	            res =c;
+	        
+	        return res;
+	}
+
+	public int lengthOfLongestSubstring_optimal(String s) {
+        if(s == null || s.length() == 0){
+            return 0;
+        }
+        if(s.length() == 1){
+            return 1;
+        }
+        int left = 0;
+        int right = 0;
+        int max = 1;
+        int len = s.length();
+        boolean[] ascii = new boolean[128];
+        while(right < len){
+            char c = s.charAt(right);
+            if(!ascii[c]){
+                ascii[c] = true;
+                right++;
+            }
+            else{
+                max = Math.max(right - left, max);
+                while(left < right && s.charAt(left) != s.charAt(right)){
+                    ascii[s.charAt(left)] = false;
+                    left++;
+                }
+                left++;
+                right++;
+            }
+        }
+        max = Math.max(right - left, max);
+        return max;
+    }
 }

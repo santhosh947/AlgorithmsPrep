@@ -1,0 +1,2100 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AnagramsMatch<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "AnagramsMatch",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BuildBSTAndFindDistanceBetweenTwoNodes<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "BuildBSTAndFindDistanceBetweenTwoNodes",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BuildBSTFromPreorder<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "BuildBSTFromPreorder",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DateProblem<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "DateProblem",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindAllAnagramsInAString<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "FindAllAnagramsInAString",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindKClosetElements<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "FindKClosetElements",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindMClosestPointsFromOriginFromAGivenList<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "FindMClosestPointsFromOriginFromAGivenList",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindMinInRotatedSortedArray<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "FindMinInRotatedSortedArray",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindMissingElement<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "FindMissingElement",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindtheNextHighestInteger<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "FindtheNextHighestInteger",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KSubsequence_Expedia<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "KSubsequence_Expedia",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LevelOrderZIGZAG<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "LevelOrderZIGZAG",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedListSwap<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "LinkedListSwap",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaximumContinousSubArray<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "MaximumContinousSubArray",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeIntervals_Expedia<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "MergeIntervals_Expedia",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MoveAllZerosToFront<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "MoveAllZerosToFront",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NormalizeURL<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "NormalizeURL",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PlayTicTacToe<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "PlayTicTacToe",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RansomNote<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "RansomNote",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveDuplicatesFromSortedArray<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "RemoveDuplicatesFromSortedArray",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemovingOneStringFromAnother<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "RemovingOneStringFromAnother",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseWordsInAString_Expedia<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "ReverseWordsInAString_Expedia",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SetColors<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "SetColors",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortArrayBasedOnElementFrequency<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "SortArrayBasedOnElementFrequency",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringTokenizer_Hulu<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "StringTokenizer_Hulu",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-gameOfLife_Expedia<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "gameOfLife_Expedia",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AmenHomeSale<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.AmenHomeSale",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BST<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.BST",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BSTDistance<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.BSTDistance",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BSTLinearOrder<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.BSTLinearOrder",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BalancedParanthesis<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.BalancedParanthesis",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearch<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.BinarySearch",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryTreeAvg<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.BinaryTreeAvg",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CTCI_CH10_P1<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.CTCI_CH10_P1",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CTCI_ch01_p3_StringManipulation<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.CTCI_ch01_p3_StringManipulation",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CTCI_ch01_p4_StringManipulation<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.CTCI_ch01_p4_StringManipulation",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CTCI_ch01_p5_StringManipulation<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.CTCI_ch01_p5_StringManipulation",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Caching<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Caching",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Chain<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Chain",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DeathGame<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.DeathGame",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DepthFirstSearchExample<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.DepthFirstSearchExample",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dictonary<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Dictonary",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FB_Prac<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.FB_Prac",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Factorial<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Factorial",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Fibonacii<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Fibonacii",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindAllAnagramsInString<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.FindAllAnagramsInString",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Graph<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Graph",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HackerRank<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.HackerRank",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HeapSort<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.HeapSort",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KMPPatternMatch<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.KMPPatternMatch",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KnapSack<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.KnapSack",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LCS<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LCS",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Lee_Itinanry<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Lee_Itinanry",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetAddLinkedList<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LeetAddLinkedList",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetAddLinkedList2<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LeetAddLinkedList2",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetCodeContestJuly8th_Solution2<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LeetCodeContestJuly8th_Solution2",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetCodeContest_NextGreatInt<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LeetCodeContest_NextGreatInt",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetCode_FindIsland<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LeetCode_FindIsland",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Leetcode1<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Leetcode1",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetcodeDt715Log<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LeetcodeDt715Log",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetcodeDt715_findMaxAverage<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LeetcodeDt715_findMaxAverage",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetcodeDt722P1_findLongestChain<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LeetcodeDt722P1_findLongestChain",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetcodeSubstring<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LeetcodeSubstring",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LengthOfLongestSubstring<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LengthOfLongestSubstring",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LettersCombination<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LettersCombination",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedListCopy<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LinkedListCopy",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedListCycle<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LinkedListCycle",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LowestCommonAncestor<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.LowestCommonAncestor",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MS<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.MS",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Matrix<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Matrix",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxSlidingWindow<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.MaxSlidingWindow",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeArray<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.MergeArray",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PassbyValTest<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.PassbyValTest",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Permutations<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Permutations",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProductExceptItSelf<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.ProductExceptItSelf",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RainWaterTrap<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.RainWaterTrap",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RandomSetCall<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.RandomSetCall",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveCharactersOfOneStringFromAnother<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.RemoveCharactersOfOneStringFromAnother",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveDuplicateFromString<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.RemoveDuplicateFromString",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Shares<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Shares",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ShortestDistance<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.ShortestDistance",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Snippet<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Snippet",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Solution",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Square<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Square",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StackDemoInJava<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.StackDemoInJava",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringRemoval<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.StringRemoval",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringReversal<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.StringReversal",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SymmtericTree<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.SymmtericTree",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Test",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Testing<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.Testing",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TowerOfHanoi<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.TowerOfHanoi",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TreeSerialization<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.TreeSerialization",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UniqueCharInArray<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.UniqueCharInArray",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordBreak<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.WordBreak",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordLadder<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.WordLadder",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-addLinkedList<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.addLinkedList",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-bitwise<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.bitwise",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-composeExpression<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.composeExpression",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-digits<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.digits",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-findKFrequentElements<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.findKFrequentElements",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-linkedListPractice<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.linkedListPractice",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-linkedlistRemoveDup<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.linkedlistRemoveDup",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-longestIncreasingSubSeq<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.longestIncreasingSubSeq",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-longestPalindrome<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.longestPalindrome",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-longestPalindrone<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.longestPalindrone",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-majorityEle<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.majorityEle",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-merge<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.merge",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-multiply<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.multiply",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-pascalTriangle<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.pascalTriangle",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-permut<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.permut",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-rand<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.rand",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-rotateMat<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.rotateMat",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sortSequence<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.sortSequence",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sqrt<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.sqrt",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-stringReversalLeetcode<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.stringReversalLeetcode",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sudoKU<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.sudoKU",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sudoKU_sub<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.sudoKU_sub",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test1<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.test1",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test47<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.test47",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-trie<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.trie",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-uniqueWords<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.uniqueWords",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-validParenthsis<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.validParenthsis",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-wordReverse<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "prac.wordReverse",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-rotateArray<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "rotateArray",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-snakeAndLadder<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "snakeAndLadder",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sumOfEvenLevelEvenNodes<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "sumOfEvenLevelEvenNodes",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-tset<LeetCode (2)>",
+            "request": "launch",
+            "mainClass": "tset",
+            "projectName": "LeetCode (2)"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ActualQ1<LeetCode>",
+            "request": "launch",
+            "mainClass": "Amz_Nov_2018.ActualQ1",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CodeTester<LeetCode>",
+            "request": "launch",
+            "mainClass": "Amz_Nov_2018.CodeTester",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Q1<LeetCode>",
+            "request": "launch",
+            "mainClass": "Amz_Nov_2018.Q1",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Q2<LeetCode>",
+            "request": "launch",
+            "mainClass": "Amz_Nov_2018.Q2",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AnagramsMatch<LeetCode>",
+            "request": "launch",
+            "mainClass": "AnagramsMatch",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BuildBSTAndFindDistanceBetweenTwoNodes<LeetCode>",
+            "request": "launch",
+            "mainClass": "BuildBSTAndFindDistanceBetweenTwoNodes",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BuildBSTFromPreorder<LeetCode>",
+            "request": "launch",
+            "mainClass": "BuildBSTFromPreorder",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DateProblem<LeetCode>",
+            "request": "launch",
+            "mainClass": "DateProblem",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindAllAnagramsInAString<LeetCode>",
+            "request": "launch",
+            "mainClass": "FindAllAnagramsInAString",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindKClosetElements<LeetCode>",
+            "request": "launch",
+            "mainClass": "FindKClosetElements",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindMClosestPointsFromOriginFromAGivenList<LeetCode>",
+            "request": "launch",
+            "mainClass": "FindMClosestPointsFromOriginFromAGivenList",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindMinInRotatedSortedArray<LeetCode>",
+            "request": "launch",
+            "mainClass": "FindMinInRotatedSortedArray",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindMissingElement<LeetCode>",
+            "request": "launch",
+            "mainClass": "FindMissingElement",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindtheNextHighestInteger<LeetCode>",
+            "request": "launch",
+            "mainClass": "FindtheNextHighestInteger",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KSubsequence_Expedia<LeetCode>",
+            "request": "launch",
+            "mainClass": "KSubsequence_Expedia",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GenerateParentheses<LeetCode>",
+            "request": "launch",
+            "mainClass": "LeetcodeMedium.GenerateParentheses",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LevelOrderZIGZAG<LeetCode>",
+            "request": "launch",
+            "mainClass": "LevelOrderZIGZAG",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedListSwap<LeetCode>",
+            "request": "launch",
+            "mainClass": "LinkedListSwap",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaximumContinousSubArray<LeetCode>",
+            "request": "launch",
+            "mainClass": "MaximumContinousSubArray",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeIntervals_Expedia<LeetCode>",
+            "request": "launch",
+            "mainClass": "MergeIntervals_Expedia",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MoveAllZerosToFront<LeetCode>",
+            "request": "launch",
+            "mainClass": "MoveAllZerosToFront",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NormalizeURL<LeetCode>",
+            "request": "launch",
+            "mainClass": "NormalizeURL",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PlayTicTacToe<LeetCode>",
+            "request": "launch",
+            "mainClass": "PlayTicTacToe",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AddTwoNumbersLinkedList<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.AddTwoNumbersLinkedList",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayListEx<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.ArrayListEx",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayReversal<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.ArrayReversal",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CacheClient<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.CacheClient",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CopyRandomLinkedListNode<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.CopyRandomLinkedListNode",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DecodeString<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.DecodeString",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DecodeString2<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.DecodeString2",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Graph<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.Graph",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestAbsoluteFilePath<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.LongestAbsoluteFilePath",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestSubStringWithKUniqueChar<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.LongestSubStringWithKUniqueChar",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MajroityElement<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.MajroityElement",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MissingRanges<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.MissingRanges",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PalindromeCheck<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.PalindromeCheck",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Permutation<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.Permutation",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SentenceScreenFitting<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.SentenceScreenFitting",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SoliderKilling<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.SoliderKilling",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortedMatrixSearch<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.SortedMatrixSearch",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortedMatrixSearch2<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.SortedMatrixSearch2",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Stocks<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.Stocks",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringCompression<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.StringCompression",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TelephoneKeypad<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.TelephoneKeypad",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-fib<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.fib",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-lenOfLongestSubString<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.lenOfLongestSubString",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-longestPrefix<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.longestPrefix",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-maxConstinuousArray<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.maxConstinuousArray",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-maxIsland<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.maxIsland",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-mergeTwoLists<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.mergeTwoLists",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-minInSortedArray<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.minInSortedArray",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-onePlus<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.onePlus",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-priorityQueueExample<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.priorityQueueExample",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-productExceptItself<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.productExceptItself",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sqrt<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.sqrt",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-twoSum<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.twoSum",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-validParaenthsis<LeetCode>",
+            "request": "launch",
+            "mainClass": "Prac2.validParaenthsis",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestSubString<LeetCode>",
+            "request": "launch",
+            "mainClass": "Practice_Nov_2019.LongestSubString",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringToInt<LeetCode>",
+            "request": "launch",
+            "mainClass": "Practice_Nov_2019.StringToInt",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RansomNote<LeetCode>",
+            "request": "launch",
+            "mainClass": "RansomNote",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveDuplicatesFromSortedArray<LeetCode>",
+            "request": "launch",
+            "mainClass": "RemoveDuplicatesFromSortedArray",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemovingOneStringFromAnother<LeetCode>",
+            "request": "launch",
+            "mainClass": "RemovingOneStringFromAnother",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseWordsInAString_Expedia<LeetCode>",
+            "request": "launch",
+            "mainClass": "ReverseWordsInAString_Expedia",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SetColors<LeetCode>",
+            "request": "launch",
+            "mainClass": "SetColors",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortArrayBasedOnElementFrequency<LeetCode>",
+            "request": "launch",
+            "mainClass": "SortArrayBasedOnElementFrequency",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringTokenizer_Hulu<LeetCode>",
+            "request": "launch",
+            "mainClass": "StringTokenizer_Hulu",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-gameOfLife_Expedia<LeetCode>",
+            "request": "launch",
+            "mainClass": "gameOfLife_Expedia",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AmenHomeSale<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.AmenHomeSale",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BST<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.BST",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BSTDistance<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.BSTDistance",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BSTLinearOrder<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.BSTLinearOrder",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BalancedParanthesis<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.BalancedParanthesis",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearch<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.BinarySearch",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryTreeAvg<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.BinaryTreeAvg",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CTCI_CH10_P1<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.CTCI_CH10_P1",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CTCI_ch01_p3_StringManipulation<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.CTCI_ch01_p3_StringManipulation",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CTCI_ch01_p4_StringManipulation<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.CTCI_ch01_p4_StringManipulation",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CTCI_ch01_p5_StringManipulation<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.CTCI_ch01_p5_StringManipulation",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Caching<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Caching",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Chain<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Chain",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DeathGame<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.DeathGame",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DepthFirstSearchExample<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.DepthFirstSearchExample",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Dictonary<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Dictonary",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FB_Prac<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.FB_Prac",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Factorial<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Factorial",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Fibonacii<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Fibonacii",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindAllAnagramsInString<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.FindAllAnagramsInString",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Graph<LeetCode>(1)",
+            "request": "launch",
+            "mainClass": "prac.Graph",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HackerRank<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.HackerRank",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HeapSort<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.HeapSort",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KMPPatternMatch<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.KMPPatternMatch",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KnapSack<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.KnapSack",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LCS<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LCS",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Lee_Itinanry<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Lee_Itinanry",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetAddLinkedList<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LeetAddLinkedList",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetAddLinkedList2<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LeetAddLinkedList2",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetCodeContestJuly8th_Solution2<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LeetCodeContestJuly8th_Solution2",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetCodeContest_NextGreatInt<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LeetCodeContest_NextGreatInt",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetCode_FindIsland<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LeetCode_FindIsland",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Leetcode1<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Leetcode1",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetcodeDt715Log<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LeetcodeDt715Log",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetcodeDt715_findMaxAverage<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LeetcodeDt715_findMaxAverage",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetcodeDt722P1_findLongestChain<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LeetcodeDt722P1_findLongestChain",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeetcodeSubstring<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LeetcodeSubstring",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LengthOfLongestSubstring<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LengthOfLongestSubstring",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LettersCombination<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LettersCombination",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedListCopy<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LinkedListCopy",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedListCycle<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LinkedListCycle",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LowestCommonAncestor<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.LowestCommonAncestor",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MS<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.MS",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Matrix<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Matrix",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxSlidingWindow<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.MaxSlidingWindow",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeArray<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.MergeArray",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PassbyValTest<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.PassbyValTest",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Permutations<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Permutations",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProductExceptItSelf<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.ProductExceptItSelf",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RainWaterTrap<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.RainWaterTrap",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RandomSetCall<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.RandomSetCall",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveCharactersOfOneStringFromAnother<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.RemoveCharactersOfOneStringFromAnother",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveDuplicateFromString<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.RemoveDuplicateFromString",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Shares<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Shares",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ShortestDistance<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.ShortestDistance",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Snippet<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Snippet",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Solution",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Square<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Square",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StackDemoInJava<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.StackDemoInJava",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringRemoval<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.StringRemoval",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringReversal<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.StringReversal",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SymmtericTree<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.SymmtericTree",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Test",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Testing<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.Testing",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TowerOfHanoi<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.TowerOfHanoi",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TreeSerialization<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.TreeSerialization",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UniqueCharInArray<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.UniqueCharInArray",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordBreak<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.WordBreak",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordLadder<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.WordLadder",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-addLinkedList<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.addLinkedList",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-bitwise<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.bitwise",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-composeExpression<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.composeExpression",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-digits<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.digits",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-findKFrequentElements<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.findKFrequentElements",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-linkedListPractice<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.linkedListPractice",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-linkedlistRemoveDup<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.linkedlistRemoveDup",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-longestIncreasingSubSeq<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.longestIncreasingSubSeq",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-longestPalindrome<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.longestPalindrome",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-longestPalindrone<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.longestPalindrone",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-majorityEle<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.majorityEle",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-merge<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.merge",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-multiply<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.multiply",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-pascalTriangle<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.pascalTriangle",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-permut<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.permut",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-rand<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.rand",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-rotateMat<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.rotateMat",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sortSequence<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.sortSequence",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sqrt<LeetCode>(1)",
+            "request": "launch",
+            "mainClass": "prac.sqrt",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-stringReversalLeetcode<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.stringReversalLeetcode",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sudoKU<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.sudoKU",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sudoKU_sub<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.sudoKU_sub",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test1<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.test1",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test47<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.test47",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-trie<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.trie",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-uniqueWords<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.uniqueWords",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-validParenthsis<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.validParenthsis",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-wordReverse<LeetCode>",
+            "request": "launch",
+            "mainClass": "prac.wordReverse",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-rotateArray<LeetCode>",
+            "request": "launch",
+            "mainClass": "rotateArray",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-snakeAndLadder<LeetCode>",
+            "request": "launch",
+            "mainClass": "snakeAndLadder",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PortfolioSuggester<LeetCode>",
+            "request": "launch",
+            "mainClass": "stocks.baseclasses.PortfolioSuggester",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sumOfEvenLevelEvenNodes<LeetCode>",
+            "request": "launch",
+            "mainClass": "sumOfEvenLevelEvenNodes",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test<LeetCode>",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-tset<LeetCode>",
+            "request": "launch",
+            "mainClass": "tset",
+            "projectName": "LeetCode"
+        }
+    ]
+}

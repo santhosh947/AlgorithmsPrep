@@ -21,7 +21,7 @@ public class RemoveInvalidParanthesis
 
     public static List<String> removeInvalidParentheses(String s) {
         List<String> res = new ArrayList<String>();
-
+        
         return res;
     }
 }

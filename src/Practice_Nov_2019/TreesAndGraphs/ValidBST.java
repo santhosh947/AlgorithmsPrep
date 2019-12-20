@@ -15,11 +15,11 @@ class TreeNode {
 class ValidBST {
     public static void main(String[] args) {
         TreeNode lleaf1 = new TreeNode(1);
-        TreeNode rleaf1 = new TreeNode(4);
+        TreeNode rleaf1 = new TreeNode(6);
 
         TreeNode lleaf2 = new TreeNode(3);
 
-        TreeNode rleaf2 = new TreeNode(6);
+        TreeNode rleaf2 = new TreeNode(7);
         rleaf1.left = lleaf2;
         rleaf1.right = rleaf2;
 
@@ -62,9 +62,26 @@ class ValidBST {
         return true;
     }
 
-    public static boolean isValidBST(TreeNode root) {
+    public static boolean isValidBST22(TreeNode root) {
         Stack ll = new Stack<>();
 
         return inOrderTraversal(root, ll, 1);
+    }
+
+    public static boolean isValidBST(TreeNode root) {
+        return isValidBST2(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+    
+    public static boolean isValidBST2(TreeNode root, long minVal, long maxVal) {
+        if (root == null) return true;
+        if (root.val >= maxVal || root.val <= minVal) 
+        	return false;
+        
+        if(isValidBST2(root.left, minVal, root.val) && isValidBST2(root.right, root.val, maxVal))
+        {
+        	return true;
+        }
+        else
+        	return false;
     }
 }

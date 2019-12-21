@@ -33,7 +33,7 @@ class ValidBST {
         root.left = lleaf1;
         root.right = rleaf1;
 
-        System.out.println(isValidBST(root));
+        System.out.println(isValidBST_st(root));
 
         // LinkedList ll = new LinkedList<>();
         // inOrderTraversal(root, ll);
@@ -83,5 +83,25 @@ class ValidBST {
         }
         else
         	return false;
+    }
+
+    public static boolean isValidBST_st (TreeNode rt){
+        Stack<TreeNode> stack = new Stack<TreeNode> ();
+        TreeNode cur = rt ;
+        TreeNode pre = null ;		   
+        while (!stack.isEmpty() || cur != null) {			   
+            if (cur != null) {
+                stack.push(cur);
+                cur = cur.left ;
+            } else {				   
+                TreeNode p = stack.pop() ;
+                if (pre != null && p.val <= pre.val) {					   
+                    return false ;
+                }				   
+                pre = p ;					   
+                cur = p.right ;
+            }
+        }
+        return true ; 
     }
 }

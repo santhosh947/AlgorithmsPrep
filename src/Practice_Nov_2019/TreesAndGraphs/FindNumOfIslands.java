@@ -22,53 +22,33 @@ class FindNumOfIslands {
       
       public static int numIslands(char[][] grid) {
         int res = 0;
+        if(grid.length==0)
+            return 0;
         
         for(int i=0;i<grid.length;i++)
         {
           for(int j=0;j<grid[0].length;j++)
           {
-            if(grid[i][j]==1)
+            if(grid[i][j]=='1')
             {
-              grid[i][j]=0;
-              int j_p = j;
-              j_p++;
-              //Traverse right 
-              while(j_p<grid[0].length && grid[i][j_p]==1)
-              {
-                grid[i][j_p]=0;
-                j_p++;           
-              }
-              
-              int i_p = i;
-              i_p++;
-              //Traverse down
-              while(i_p<grid.length && grid[i_p][j] == 1)
-              {
-                grid[i_p][j]=0;
-                i_p++;
-              }
-              
-              j_p = j;
-              j_p--;
-              //Traverse left 
-              while(j_p>=0 && grid[i][j_p]==1)
-              {
-                grid[i][j_p]=0;
-                j_p--;           
-              }
-              
-              i_p = i;
-              i_p--;
-              //Traverse down
-              while(i_p>=0 && grid[i_p][j] == 1)
-              {
-                grid[i_p][j]=0;
-                i_p--;
-              }
-              res++;              
+              res++;
+              dfs(grid,i,j);
             }
           }
-        }         
+        }
+        
         return res;
+      }
+      
+      public static void dfs(char[][] g,int r, int c)
+      {
+        if(r<0 || r >= g.length || c<0 || c>= g[0].length || g[r][c]=='0')
+          return;
+        
+        g[r][c]= '0';
+        dfs(g,r+1,c);
+        dfs(g,r-1,c);
+        dfs(g,r,c+1);
+        dfs(g,r,c-1);
       }
 }

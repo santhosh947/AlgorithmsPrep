@@ -27,7 +27,7 @@ class TreeCloneGraph {
         ng.add(n1);
     
         
-        Node res = cloneGraph(n1);  
+        Node res = cloneGraph2(n1);  
         System.out.println();
     }
 
@@ -87,5 +87,61 @@ class TreeCloneGraph {
         for (Node neighbor : node.neighbors) 
             newNode.neighbors.add(clone(neighbor, map));
         return newNode;
+    }
+
+
+    public static Node cloneGraph2(Node node) {
+        if(node ==null)
+            return null;
+        
+        Map<Node, Node> hm = new HashMap();
+        
+        Node t = node;
+        Stack<Node> st = new Stack(); 
+        st.push(t);
+        while(!st.isEmpty())
+        {
+            Node process = st.pop();
+            
+            
+            if(hm.containsKey(process))
+            {
+                continue;
+            }
+            else
+            {
+                List<Node> ng = process.neighbors;
+                for(int i=0;i<ng.size();i++)
+                {
+                    st.push(ng.get(i));
+                }
+                List<Node> ll = new ArrayList<>();
+                hm.put(process, new Node(process.val,ll));
+            }            
+        }
+
+        Iterator hmIterator = hm.entrySet().iterator(); 
+        while (hmIterator.hasNext()) { 
+            Map.Entry mapElement = (Map.Entry)hmIterator.next(); 
+            Node k = (Node)mapElement.getKey();
+            List<Node> k_ng = k.neighbors;
+            Node v = (Node)mapElement.getValue(); 
+            List<Node> v_ng = v.neighbors;
+
+            for(int i=0;i<k_ng.size();i++)
+            {
+                Node ng = k_ng.get(i);
+                Node vng = hm.get(ng);
+                v_ng.add(vng);
+            }
+
+            v.neighbors = v_ng;
+
+            hm.put(k,v);
+
+        }
+
+        return hm.get(node);       
+            
     }
 }

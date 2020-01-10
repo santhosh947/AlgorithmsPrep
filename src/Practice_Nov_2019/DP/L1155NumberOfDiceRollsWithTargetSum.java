@@ -2,11 +2,18 @@ package Practice_Nov_2019.DP;
 
 class L1155NumberOfDiceRollsWithTargetSum {
     public static void main(String[] args) {
+        System.out.print(numRollsToTarget(1,6,3));
+
+        System.out.print(numRollsToTarget2(1,6,3));
+
+
         System.out.print(numRollsToTarget(1,6,7));
-        System.out.print(numRollsToTarget(2,6,7));
-        System.out.print(numRollsToTarget(2,5,10));
-        System.out.print(numRollsToTarget(1,2,3));
-        System.out.print(numRollsToTarget(30,30,500));
+        System.out.print(numRollsToTarget2(1,6,7));
+
+        // System.out.print(numRollsToTarget(2,6,7));
+        // System.out.print(numRollsToTarget(2,5,10));
+        // System.out.print(numRollsToTarget(1,2,3));
+        // System.out.print(numRollsToTarget(30,30,500));
     }
 
     public static int numRollsToTarget_self(int d, int f, int target) {
@@ -14,6 +21,33 @@ class L1155NumberOfDiceRollsWithTargetSum {
 
 
         return res;
+    }
+
+
+    public static int numRollsToTarget2(int d, int f, int target) {
+        int[][] dp = new int[d+1][target+1];
+        dp[0][0]=1;
+        int MOD = 1000000007;
+
+
+        for(int i=1;i<=d;i++)
+        {
+            for(int j=1;j<=target;j++)
+            {
+                if(j>d*f)
+                {
+                    continue;
+                }
+                else
+                {
+                    for(int k=1;k<=f && k<=j; k++)
+                    {
+                        dp[i][j]=(dp[i][j]+ dp[i-1][j-k])% MOD;
+                    }
+                }
+            }
+        }
+        return dp[d][target];
     }
 
     public static int numRollsToTarget(int d, int f, int target) {

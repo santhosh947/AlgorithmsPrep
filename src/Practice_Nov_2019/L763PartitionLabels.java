@@ -1,4 +1,5 @@
 package Practice_Nov_2019;
+import java.util.*;
 
 class L763PartitionLabels {
     public static void main(String[] args) {
@@ -6,7 +7,8 @@ class L763PartitionLabels {
     }
 
     public static List<Integer> partitionLabels(String S) {
-        List
+        List<Integer> res = new ArrayList();
         
+        return res;       
     }
 }

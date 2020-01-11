@@ -89,7 +89,7 @@ class L863AllNodesDistanceKInBinaryTree {
 
     private static void findPath(TreeNode r, TreeNode target, int k, int pt, List<Integer> hs,
             Set<TreeNode> processed) {
-        if (r == null || processed.contains(r)) {
+        if (r == null || processed.contains(r) || pt> k) {
             return;
         }
         if (pt == k) {
@@ -97,7 +97,7 @@ class L863AllNodesDistanceKInBinaryTree {
             processed.add(r);
             return;
         }
-        if(!processed.contains(r))
+        if(!processed.contains(r) && pt +1 <= k)
         {
             if(!processed.contains(r.left))
                 findPath(r.left, target, k, pt + 1, hs, processed);

@@ -2,34 +2,34 @@ package Practice_Nov_2019.TreesAndGraphs;
 
 import java.util.*;
 
-class TreeNode {
+class TreeNode2 {
     int val;
-    TreeNode left;
-    TreeNode right;
+    TreeNode2 left;
+    TreeNode2 right;
 
-    TreeNode(int val) {
+    TreeNode2(int val) {
         this.val = val;
     }
 }
 
 class ValidBST {
     public static void main(String[] args) {
-        TreeNode lleaf1 = new TreeNode(1);
-        TreeNode rleaf1 = new TreeNode(6);
+        TreeNode2 lleaf1 = new TreeNode2(1);
+        TreeNode2 rleaf1 = new TreeNode2(6);
 
-        TreeNode lleaf2 = new TreeNode(3);
+        TreeNode2 lleaf2 = new TreeNode2(3);
 
-        TreeNode rleaf2 = new TreeNode(7);
+        TreeNode2 rleaf2 = new TreeNode2(7);
         rleaf1.left = lleaf2;
         rleaf1.right = rleaf2;
 
-        // TreeNode rleaf2 = new TreeNode(10);
+        // TreeNode2 rleaf2 = new TreeNode2(10);
 
-        // TreeNode lleaf2 = new TreeNode(2);
+        // TreeNode2 lleaf2 = new TreeNode2(2);
         // lleaf2.left = lleaf1;
         // lleaf2.right = rleaf2;
 
-        TreeNode root = new TreeNode(5);
+        TreeNode2 root = new TreeNode2(5);
         root.left = lleaf1;
         root.right = rleaf1;
 
@@ -45,7 +45,7 @@ class ValidBST {
         // }
     }
 
-    public static boolean inOrderTraversal(TreeNode r, Stack l, int dec) {
+    public static boolean inOrderTraversal(TreeNode2 r, Stack l, int dec) {
         if (r == null || dec == 0)
             return false;
 
@@ -62,17 +62,17 @@ class ValidBST {
         return true;
     }
 
-    public static boolean isValidBST22(TreeNode root) {
+    public static boolean isValidBST22(TreeNode2 root) {
         Stack ll = new Stack<>();
 
         return inOrderTraversal(root, ll, 1);
     }
 
-    public static boolean isValidBST(TreeNode root) {
+    public static boolean isValidBST(TreeNode2 root) {
         return isValidBST2(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
     
-    public static boolean isValidBST2(TreeNode root, long minVal, long maxVal) {
+    public static boolean isValidBST2(TreeNode2 root, long minVal, long maxVal) {
         if (root == null) return true;
         if (root.val >= maxVal || root.val <= minVal) 
         	return false;
@@ -85,16 +85,16 @@ class ValidBST {
         	return false;
     }
 
-    public static boolean isValidBST_st (TreeNode rt){
-        Stack<TreeNode> stack = new Stack<TreeNode> ();
-        TreeNode cur = rt ;
-        TreeNode pre = null ;		   
+    public static boolean isValidBST_st (TreeNode2 rt){
+        Stack<TreeNode2> stack = new Stack<TreeNode2> ();
+        TreeNode2 cur = rt ;
+        TreeNode2 pre = null ;		   
         while (!stack.isEmpty() || cur != null) {			   
             if (cur != null) {
                 stack.push(cur);
                 cur = cur.left ;
             } else {				   
-                TreeNode p = stack.pop() ;
+                TreeNode2 p = stack.pop() ;
                 if (pre != null && p.val <= pre.val) {					   
                     return false ;
                 }				   

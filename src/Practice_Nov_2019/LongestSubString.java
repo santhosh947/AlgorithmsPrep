@@ -12,6 +12,7 @@ import java.util.*;
 public class LongestSubString {
 	public static void main(String[] args) {
 		System.out.println(lengthOfLongestSubstring_2("abba"));
+		System.out.println(lengthOfLongestSubstring_2("abcabcbb"));
 	}
 
 	public static int lengthOfLongestSubstring_1(String s) {
@@ -67,7 +68,7 @@ public class LongestSubString {
 	
 	public static int lengthOfLongestSubstring_2(String s)
 	{
-		  if(s==null)
+		  	if(s==null)
 	            return 0;
 	        if(s.length() == 1)
 	            return 1;
@@ -86,8 +87,6 @@ public class LongestSubString {
 	             hm.put(s.charAt(j),j);
 	             c = j - i + 1;
 	             j++;
-	             
-
 	          }
 	          else
 	          {

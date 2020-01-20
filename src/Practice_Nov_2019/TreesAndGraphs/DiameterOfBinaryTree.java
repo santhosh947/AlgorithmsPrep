@@ -44,4 +44,14 @@ class DiameterOfBinaryTree
         return (Math.max(left, right) + 1);
     }
 
+    private static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        public TreeNode(int v)
+        {
+            val = v;
+        }
+    }
+
 }

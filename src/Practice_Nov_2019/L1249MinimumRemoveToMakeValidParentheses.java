@@ -1,6 +1,7 @@
 package Practice_Nov_2019;
 
 import java.util.EventListener;
+import java.util.Stack;
 
 class L1249MinimumRemoveToMakeValidParentheses {
     public static void main(String[] args) {
@@ -12,6 +13,28 @@ class L1249MinimumRemoveToMakeValidParentheses {
     }
 
     public static String minRemoveToMakeValid(String s) {
+        StringBuilder sb = new StringBuilder(s);
+        Stack<Integer> st = new Stack();
+        for(int i=0;i<s.length();i++)
+        {
+            if(sb.charAt(i)=='(')
+                st.add(i+1);
+            else if(sb.charAt(i)==')')
+            {
+                if(!st.isEmpty() && st.peek()>=0)
+                    st.pop();
+                else
+                    st.add(-(i+1));
+            }
+            
+        }
+        while(!st.isEmpty())
+            sb.deleteCharAt(Math.abs(st.pop())-1);
+        
+        return sb.toString();
+    }
+
+    public static String minRemoveToMakeValid_self(String s) {
         StringBuilder f_s = new StringBuilder();
         StringBuilder b_s = new StringBuilder();
         if (s == null || s.length() == 0)

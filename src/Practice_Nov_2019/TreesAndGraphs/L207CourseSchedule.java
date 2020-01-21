@@ -4,7 +4,7 @@ import java.util.*;
 
 class L207CourseSchedule {
     public static void main(String[] args) {
-        int[][] prerequisites = { { 1, 0 },{0,1} };
+        int[][] prerequisites = { { 1, 0 }};
         System.out.println(canFinish(2, prerequisites));
 
         int[] res = findOrder(2, prerequisites);
@@ -18,7 +18,7 @@ class L207CourseSchedule {
         int[] res = new int[numCourses];
         int n = numCourses;
         int[] indegree = new int[n];
-        Map<Integer, List<Integer>> adj = new HashMap<>();
+        Map<Integer, List<Integer>> adj = new HashMap<Integer, List<Integer>>();
 
         for (int[] pr : prerequisites) {
             List<Integer> l = adj.getOrDefault(pr[1], new ArrayList<>());
@@ -62,7 +62,7 @@ class L207CourseSchedule {
     public static boolean canFinish(int numCourses, int[][] prerequisites) {
         int n = numCourses;
         int[] indegree = new int[n];
-        Map<Integer, List<Integer>> adj = new HashMap<>();
+        Map<Integer, List<Integer>> adj = new HashMap<Integer, List<Integer>>();
 
         for (int[] pr : prerequisites) {
             List<Integer> l = adj.getOrDefault(pr[1], new ArrayList<>());

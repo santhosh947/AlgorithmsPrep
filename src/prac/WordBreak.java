@@ -9,7 +9,17 @@ public class WordBreak {
 		Set<String> dict = new HashSet<String>();
 		dict.add("leet");
 		dict.add("code");		
-		System.out.println(wordBreak("leetcode", dict));
+        //System.out.println(wordBreak("leetcode", dict));
+        
+
+        Set<String> dict2 = new HashSet<String>();
+		dict2.add("cats");
+        dict2.add("dog");	
+        dict2.add("sand");
+        dict2.add("and");
+        dict2.add("cat");
+        System.out.println(wordBreak("catsandog", dict2));
+	
 	}
 public static boolean wordBreak(String s, Set<String> dict) {
         

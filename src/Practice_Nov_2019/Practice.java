@@ -121,7 +121,9 @@ class Practice {
         }
         // Greedy: fetch char of max count as next char in the result.
         // Use PriorityQueue to store pairs of (char, count) and sort by count DESC.
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[1] - a[1]);
+        //PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[1] - a[1]);
+        PriorityQueue<int[]> pq = new PriorityQueue<>();
+
         for (char c : map.keySet()) {
             pq.add(new int[] {c, map.get(c)});
         }

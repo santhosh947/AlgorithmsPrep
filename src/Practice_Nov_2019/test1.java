@@ -7,7 +7,8 @@ public class test1 {
 
 		Map<Integer,Integer> hm = new HashMap();
 		
-		hm.getOrDefault(0,1);
+		hm.put(0,100);
+		System.out.println(hm.getOrDefault(hm.get(0),2));
 		
 	}
 

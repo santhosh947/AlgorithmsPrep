@@ -5,7 +5,7 @@ class L226InvertBinaryTree {
     public static void main(String[] args) {
         
     }
-    public static TreeNode invertTree(TreeNode root) {
+    public static TreeNode invertTree2(TreeNode root) {
         //4 , 2 , 7, 1,3,6,9
         // 4, 7,2,3,1,,9,6
         Stack<TreeNode> st = new Stack();

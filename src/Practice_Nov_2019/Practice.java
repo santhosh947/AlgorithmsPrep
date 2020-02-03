@@ -2,10 +2,10 @@ package Practice_Nov_2019;
 
 import java.util.*;
 
-class point{
+class point2{
     char c;
     int val;
-    point(char cc, int v)
+    point2(char cc, int v)
     {
         c=cc;
         val=v;
@@ -13,10 +13,10 @@ class point{
 
 }
 
-class pointComprator implements Comparator<point>
+class pointComprator implements Comparator<point2>
 {
     @Override
-    public int compare(point o1, point o2)
+    public int compare(point2 o1, point2 o2)
     {
         if(o1.val>o2.val)
             return -1;
@@ -74,9 +74,9 @@ class Practice {
             hm.put(c, hm.getOrDefault(c, 0) + 1);
         }
 
-        PriorityQueue<point> pq = new PriorityQueue<>(new pointComprator());
-        point a = new point('a',2);
-        point b = new point('b',1);
+        PriorityQueue<point2> pq = new PriorityQueue<>(new pointComprator());
+        point2 a = new point2('a',2);
+        point2 b = new point2('b',1);
 
         pq.add(a);
         pq.add(b);

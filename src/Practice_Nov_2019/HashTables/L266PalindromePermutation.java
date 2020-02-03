@@ -6,6 +6,6 @@ class L266PalindromePermutation {
     }
 
     public static boolean canPermutePalindrome(String s) {
-        
+        return false;
     }
 }

@@ -28,7 +28,20 @@ class pointComprator implements Comparator<point2>
 }
 class Practice {
     public static void main(String[] args) {
-        System.out.println(reorganizeString3("aab"));
+      //  System.out.println(reorganizeString3("aab"));
+
+        PriorityQueue<point2> pq = new PriorityQueue<>(new pointComprator());
+        point2 a = new point2('a',2);
+        point2 b = new point2('b',1);
+
+        pq.add(a);
+        pq.add(b);
+
+        while(!pq.isEmpty())
+        {
+            point2 pp = pq.poll();
+            System.out.println((char)pp.c + "," +(int) pp.val);
+        }
     }
 
     public static String reorganizeString3(String S) {

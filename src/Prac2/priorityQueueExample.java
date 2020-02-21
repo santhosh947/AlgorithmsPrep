@@ -2,21 +2,22 @@ package Prac2;
 
 import java.util.Iterator;
 import java.util.PriorityQueue;
+import java.util.*;
 
 public class priorityQueueExample {
 	public static void main(String args[]) 
     { 
         // Creating empty priority queue 
-        PriorityQueue<String> pQueue = 
-                          new PriorityQueue<String>(); 
+        // PriorityQueue<String> pQueue = 
+        //                   new PriorityQueue<String>(); 
   
-        pQueue.add("shopnow"); 
-        pQueue.add("nowshop"); 
-        pQueue.add("mymarket");
+        // pQueue.add("shopnow"); 
+        // pQueue.add("nowshop"); 
+        // pQueue.add("mymarket");
   
-        Iterator itr = pQueue.iterator(); 
-        while (itr.hasNext()) 
-            System.out.println(itr.next()); 
+        // Iterator itr = pQueue.iterator(); 
+        // while (itr.hasNext()) 
+        //     System.out.println(itr.next()); 
 
     
   
@@ -48,5 +49,30 @@ public class priorityQueueExample {
         // System.out.println ( "Value in array: "); 
         // for (int i = 0; i<arr.length; i++) 
         //   System.out.println ( "Value: " + arr[i].toString()) ; 
+
+
+
+        PriorityQueue<Integer> pq= new PriorityQueue<Integer>();
+        pq.add(10);
+
+        pq.add(20);
+        pq.add(5);
+        Iterator it = pq.iterator();
+        while(it.hasNext())
+        {
+            System.out.println(it.next());
+        }
+
+        System.out.println("MAX HEAP");
+        PriorityQueue<Integer> pq2= new PriorityQueue<Integer>(Collections.reverseOrder());
+        pq2.add(10);
+
+        pq2.add(20);
+        pq2.add(5);
+        Iterator it2 = pq2.iterator();
+        while(it2.hasNext())
+        {
+            System.out.println(it2.next());
+        }
     } 
 }

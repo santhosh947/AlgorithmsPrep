@@ -2,12 +2,12 @@ package Practice_Nov_2019.TreesAndGraphs;
 
 class L426treeToDoublyList {
     public static void main(String[] args) {
-        TreeNode r = new TreeNode(4);
-        TreeNode l1 = new TreeNode(2);
-        TreeNode r1 = new TreeNode(5);
+        Node r = new Node(4);
+        Node l1 = new Node(2);
+        Node r1 = new Node(5);
 
-        TreeNode l2 = new TreeNode(1);
-        TreeNode r2 = new TreeNode(3);
+        Node l2 = new Node(1);
+        Node r2 = new Node(3);
 
         r.left = l1;
         r.right = r1;

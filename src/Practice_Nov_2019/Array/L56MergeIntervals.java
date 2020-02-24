@@ -24,7 +24,9 @@ class L56MergeIntervals {
      */
     public static void main(String[] args) {
         int[][] a = {{1,3},{2,6},{8,10},{15,18}};
-        int[][] res = merge(a);
+        int[][] b = {{1,4},{4,5}};
+
+        int[][] res = merge(b);
 
         for(int i=0;i<res.length;i++)
         {
@@ -76,4 +78,55 @@ class L56MergeIntervals {
         return ans;
     
     }    
+
+
+    public static int[][] merge_prac(int[][] intervals) {
+        int[] f = new int[intervals.length];
+        int[] b = new int[intervals.length];
+        for(int i=0;i<intervals.length;i++)
+        {
+            f[i]=intervals[i][0];
+            b[i]=intervals[i][1];
+        }
+        Arrays.sort(f);
+        Arrays.sort(b);
+        
+        List<ArrayList<Integer>> res = new ArrayList();
+        int start = f[0];
+        int ct =0;
+        for(int i=0;i<intervals.length && ct<intervals.length;i++)
+        {
+            while(i<intervals.length && f[i]<b[ct])
+            {
+                i++;
+            }
+            while(ct<intervals.length && f[i]>=b[ct])
+            {
+                ct++;
+            }
+            
+                ArrayList<Integer> r= new ArrayList();
+                r.add(start);
+                r.add(b[ct-1]);
+                res.add(r);
+                start=f[i];
+                //ct++;
+
+            
+            
+        }
+        ArrayList<Integer> r= new ArrayList();
+        r.add(start);
+        r.add(b[ct]);
+        res.add(r);
+        int rl = res.size();
+            int[][] aa = new int[rl][2];
+        for(int i=0;i<rl;i++)
+        {
+            aa[i][0]=res.get(i).get(0);
+            aa[i][1]=res.get(i).get(1);
+        }
+        return aa;
+            
+    }
 }

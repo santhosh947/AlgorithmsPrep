@@ -7,6 +7,10 @@ class L297SerializeandDeserializeBinaryTree {
 
     public static void main(String[] args) {
         TreeNode r = deserialize("1,X,2,3,X,X,X");
+        System.out.println(serialize(r));
+
+        TreeNode r2 = deserialize("1,2,X,X,3,4,X,X,5,X,X");
+        System.out.println(serialize(r2));
     }
     private static final String spliter = ",";
     private static final String NN = "X";

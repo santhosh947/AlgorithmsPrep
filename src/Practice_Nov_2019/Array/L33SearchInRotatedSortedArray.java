@@ -5,6 +5,9 @@ class L33SearchInRotatedSortedArray {
         int[] n1 = {6,7,1,2,3,4,5};
         int[] n2 = {4,5,6,7,0,1,2};
         int[] n3 = {5,1,2,3,4};
+        int[] n4 = {5,1,3};
+        System.out.println(search_revise(n4,3));
+
         System.out.println(search2(n3,1));
         System.out.println(search(n3,4));
 
@@ -67,5 +70,37 @@ class L33SearchInRotatedSortedArray {
         
         return binarySearch(nums, mid+1, r, t);
         
+    }
+
+    public static int search_revise(int[] nums, int target) {
+        if(nums.length==0)
+            return -1;
+        
+        return binary(nums,0,nums.length-1, target);
+    }
+    
+    private static int binary(int[] nums, int st, int end, int t)
+    {
+        if(st<0 || end>nums.length || st>end)
+            return -1;
+        int mid = st +(end-st)/2;
+        if(nums[mid]==t)
+            return mid;
+        
+        if(nums[st]<=nums[mid])
+        {
+            if(t<nums[mid] && t>=nums[st])            
+                return binary(nums,st,mid-1,t);
+            else
+                return binary(nums,mid+1,end,t);
+            
+        }        
+        if(nums[end]>=nums[mid]) {
+            if(t>nums[mid] && t<=nums[end])
+                return binary(nums,mid+1,end,t);
+            else
+                return binary(nums,st,mid-1,t);
+        }
+        return -1;
     }
 }

@@ -1,6 +1,58 @@
 package Practice_Nov_2019.TreesAndGraphs;
 
+import java.util.Stack;
+
 class L426treeToDoublyList {
+
+    private static class Solution {
+        Node head;
+        Node curr;
+        Stack<Node> st;
+        public Node treeToDoublyList(Node root) {
+            head=null;
+            if(root==null)
+                return root;
+            
+            curr=root;
+            st = new Stack();
+            process(root);
+            head.left=curr;
+            curr.right=head;
+                
+            return head;
+        }
+        private void process(Node r)
+        {
+            if(r==null)
+                return;
+            
+            st.add(r);
+            //prev=r;
+            if(r.left!=null)
+            {
+                process(r.left);
+            }
+            Node nd = st.pop();
+            
+            if(head==null)
+            {
+                head=nd;
+
+                curr=nd;
+            }else{
+                curr.right=nd;
+                nd.left=curr;
+                curr=nd;
+            }
+            if(nd.right!=null)
+            {
+                process(nd.right);
+            }
+                    
+            
+            return;
+        }
+    }
     public static void main(String[] args) {
         Node r = new Node(4);
         Node l1 = new Node(2);
@@ -14,9 +66,20 @@ class L426treeToDoublyList {
 
         l1.left = l2;
         l1.right = r2;
+       // Node res1 = treeToDoublyList(r);
 
-        Node res = treeToDoublyList(r);
+       // show(res1);
 
+        Solution s = new Solution();
+        Node res = s.treeToDoublyList(r);
+        show(res);
+
+        
+        System.out.println();
+
+    }
+
+    private static void show(Node res){
         int v = res.val;
         Node t = res.right;
         System.out.print(res.val+"->");
@@ -25,7 +88,6 @@ class L426treeToDoublyList {
             System.out.print(t.val+"->");
             t=t.right;
         }
-
     }
 
     private static Node res;

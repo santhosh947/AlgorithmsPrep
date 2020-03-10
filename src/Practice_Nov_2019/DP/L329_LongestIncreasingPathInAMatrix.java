@@ -20,7 +20,7 @@ class L329_LongestIncreasingPathInAMatrix {
 
         System.out.println("******************************************");
 
-        System.out.println(longestIncreasingPath_op(in));
+        System.out.println(longestIncreasingPath_DFS(in));
     }
 
     public static int longestIncreasingPath(int[][] matrix) {

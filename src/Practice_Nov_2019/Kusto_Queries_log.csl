@@ -1,0 +1,11 @@
+
+
+WatsonSnapshot_KernelMode
+| where FailureInfo_FailureHash == "3985fb16-2611-1a40-5edd-17e518c2f8b0" and clientIngestTime > datetime_add('day', -15, now()) | order by clientIngestTime desc  
+| summarize count() by FailureInfo_FailureHash,DeviceModel_Clean | order by count_ desc
+
+
+WatsonSnapshot_KernelMode
+| where FailureInfo_FailureHash in (hash_in)
+and clientIngestTime > datetime_add('day', -15, now()) and osVersionBuild == 18362| order by clientIngestTime desc  
+| summarize count() by FailureInfo_FailureHash,DeviceModel_Clean | order by FailureInfo_FailureHash,count_ desc | where DeviceModel_Clean contains "Surface"

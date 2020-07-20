@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AnagramsMatch",
+            "request": "launch",
+            "mainClass": "Old_files.AnagramsMatch",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - L62UniquePaths",
+            "request": "launch",
+            "mainClass": "Practice_Nov_2019.DP.L62UniquePaths",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - L1155NumberOfDiceRollsWithTargetSum",
+            "request": "launch",
+            "mainClass": "Practice_Nov_2019.DP.L1155NumberOfDiceRollsWithTargetSum",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - L1482MinimumNumberOfDaysToMakeBouquets",
+            "request": "launch",
+            "mainClass": "Practice_June_2020.L1482MinimumNumberOfDaysToMakeBouquets",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"

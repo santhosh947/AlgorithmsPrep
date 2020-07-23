@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - L563BinaryTreeTilt",
+            "request": "launch",
+            "mainClass": "Practice_Nov_2019.TreesAndGraphs.L563BinaryTreeTilt",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - L1469FindAllTheLonelyNodes",
+            "request": "launch",
+            "mainClass": "Practice_Nov_2019.TreesAndGraphs.L1469FindAllTheLonelyNodes",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - L9PalindromeNumber",
+            "request": "launch",
+            "mainClass": "Practice_Nov_2019.Array.L9PalindromeNumber",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"

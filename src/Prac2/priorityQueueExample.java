@@ -50,18 +50,33 @@ public class priorityQueueExample {
         // for (int i = 0; i<arr.length; i++) 
         //   System.out.println ( "Value: " + arr[i].toString()) ; 
 
+        PriorityQueue<Double> pq_double= new PriorityQueue<Double>();
+        pq_double.add(0.45);
+
+        pq_double.add(0.46);
+        pq_double.add(0.32);
+        Iterator it4 = pq_double.iterator();
+        while(it4.hasNext())
+        {
+            System.out.println(it4.next());
+        }
 
 
         PriorityQueue<Integer> pq= new PriorityQueue<Integer>();
-        pq.add(10);
+        pq.offer(10);
 
-        pq.add(20);
-        pq.add(5);
-        Iterator it = pq.iterator();
-        while(it.hasNext())
-        {
-            System.out.println(it.next());
-        }
+        pq.offer(200);
+        pq.offer(5);
+        // Iterator it = pq.iterator();
+        // while(it.hasNext())
+        // {
+        //     System.out.println(it.next());
+        // }
+
+            while(pq.size()!=0)
+            {
+                System.out.println(pq.poll());
+            }
 
         System.out.println("MAX HEAP");
         PriorityQueue<Integer> pq2= new PriorityQueue<Integer>(Collections.reverseOrder());

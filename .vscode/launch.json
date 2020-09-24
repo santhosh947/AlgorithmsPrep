@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - L1060MissingElementInSortedArray",
+            "request": "launch",
+            "mainClass": "Practice_Nov_2019.Array.L1060MissingElementInSortedArray",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - L563BinaryTreeTilt",
             "request": "launch",
             "mainClass": "Practice_Nov_2019.TreesAndGraphs.L563BinaryTreeTilt",

@@ -14,13 +14,13 @@ class L403FrogJump {
     public static boolean canCross(int[] stones) {
         // int[][] p = new int[stones.length][stones.length];
 
-        Map<Integer, HashSet<Integer>> st = new HashMap();
+        Map<Integer, HashSet<Integer>> st = new HashMap<Integer, HashSet<Integer>>();
         for (int a = 0; a < stones.length; a++) {
-            st.put(stones[a], new HashSet<>());
+            st.put(stones[a], new HashSet<Integer>());
         }
-        HashSet<Integer> in = new HashSet();
+        HashSet<Integer> in = new HashSet<Integer>();
         in.add(0);
-        st.put(stones[0],in);
+        st.put(stones[0], in);
 
         for (int i = 0; i < stones.length - 1; i++) {
             HashSet<Integer> op = st.get(stones[i]);
@@ -32,28 +32,27 @@ class L403FrogJump {
                 int curr = k + stones[i];
                 int next = k + 1 + stones[i];
 
-                if (st.containsKey(prev) && prev!=stones[i]) {
+                if (st.containsKey(prev) && prev != stones[i]) {
                     HashSet<Integer> hs = st.get(prev);
                     hs.add(k - 1);
-                    st.put(prev,hs);
+                    st.put(prev, hs);
                 }
-                if (st.containsKey(curr)&& curr!=stones[i]) {
+                if (st.containsKey(curr) && curr != stones[i]) {
                     HashSet<Integer> hs = st.get(curr);
                     hs.add(k);
-                    st.put(curr,hs);
+                    st.put(curr, hs);
 
                 }
-                if (st.containsKey(next)&& next!=stones[i]) {
+                if (st.containsKey(next) && next != stones[i]) {
                     HashSet<Integer> hs = st.get(next);
                     hs.add(k + 1);
-                    st.put(next,hs);
+                    st.put(next, hs);
 
                 }
             }
 
-
         }
-        if(st.get(stones[stones.length-1]).size()==0)
+        if (st.get(stones[stones.length - 1]).size() == 0)
             return false;
         return true;
     }

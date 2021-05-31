@@ -8,7 +8,7 @@ public class TrianglesInArray {
         for (int i : res) {
             System.out.println(i);
         }
-
+             
         String s1 = "abcd";
         String s2 = "efghi";
 

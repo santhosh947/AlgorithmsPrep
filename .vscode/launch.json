@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TrianglesInArray",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.Uber.TrianglesInArray",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountOccurrences",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.Uber.CountOccurrences",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - L1060MissingElementInSortedArray",
             "request": "launch",
             "mainClass": "Practice_Nov_2019.Array.L1060MissingElementInSortedArray",

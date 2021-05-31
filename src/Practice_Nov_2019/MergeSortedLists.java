@@ -12,10 +12,9 @@ class MergeSortedLists {
         a2.next = a3;
 
         ListNode t = a1;
-        while(t!=null)
-        {
-            System.out.print(t.val +"->");
-            t=t.next;
+        while (t != null) {
+            System.out.print(t.val + "->");
+            t = t.next;
         }
 
         System.out.println();
@@ -28,29 +27,26 @@ class MergeSortedLists {
         b2.next = b3;
 
         t = b1;
-        while(t!=null)
-        {
-            System.out.print(t.val +"->");
-            t=t.next;
+        while (t != null) {
+            System.out.print(t.val + "->");
+            t = t.next;
         }
 
-        ListNode res = mergeTwoLists(a1,b1);
+        ListNode res = mergeTwoLists2(a1, b1);
 
         System.out.println();
         t = res;
-        while(t!=null)
-        {
-            System.out.print(t.val +"->");
-            t=t.next;
+        while (t != null) {
+            System.out.print(t.val + "->");
+            t = t.next;
         }
     }
 
     /**
-     * Input: 1->2->4, 1->3->4
-     * Output: 1->1->2->3->4->4
+     * Input: 1->2->4, 1->3->4 Output: 1->1->2->3->4->4
      */
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        
+
         if (l1 == null && l2 == null) {
             return null;
         } else if (l1 == null) {
@@ -64,60 +60,44 @@ class MergeSortedLists {
         ListNode t_l2 = l2;
         ListNode t_res = res;
 
-
-        while(t_l1 != null && t_l2 != null)
-        {
+        while (t_l1 != null && t_l2 != null) {
             int next_val = 0;
             int v1 = t_l1.val;
             int v2 = t_l2.val;
 
-            if(v1>= v2)
-            {
+            if (v1 >= v2) {
                 next_val = v2;
                 t_l2 = t_l2.next;
-            }
-            else 
-            {
+            } else {
                 next_val = v1;
                 t_l1 = t_l1.next;
             }
 
-            if(res == null)
-            {
+            if (res == null) {
                 res = new ListNode(next_val);
                 t_res = res;
-            }
-            else 
-            {
+            } else {
                 t_res.next = new ListNode(next_val);
                 t_res = t_res.next;
             }
         }
 
-        while(t_l1 !=null)
-        {
-            if(res == null)
-            {
+        while (t_l1 != null) {
+            if (res == null) {
                 res = new ListNode(t_l1.val);
                 t_res = res;
-            }
-            else 
-            {
+            } else {
                 t_res.next = new ListNode(t_l1.val);
                 t_res = t_res.next;
             }
             t_l1 = t_l1.next;
         }
 
-        while(t_l2 !=null)
-        {
-            if(res == null)
-            {
+        while (t_l2 != null) {
+            if (res == null) {
                 res = new ListNode(t_l2.val);
                 t_res = res;
-            }
-            else 
-            {
+            } else {
                 t_res.next = new ListNode(t_l2.val);
                 t_res = t_res.next;
             }
@@ -125,5 +105,49 @@ class MergeSortedLists {
         }
 
         return res;
+    }
+
+    public static ListNode mergeTwoLists2(ListNode l1, ListNode l2) {
+        if (l1 == null)
+            return l2;
+        if (l2 == null)
+            return l1;
+
+        ListNode t_l1 = l1;
+        ListNode t_l2 = l2;
+
+        ListNode newHead = null;
+
+        if (t_l1.val < t_l2.val) {
+            newHead = t_l1;
+            t_l1 = t_l1.next;
+        } else {
+            newHead = t_l2;
+            t_l2 = t_l2.next;
+        }
+        newHead.next = null;
+
+        ListNode t_new = newHead;
+
+        while (t_l1 != null && t_l2 != null) {
+            if (t_l1.val > t_l2.val) {
+                t_new.next = t_l1;
+                t_l1 = t_l1.next;
+                t_new = t_new.next;
+            } else {
+                t_new.next = t_l2;
+                t_l2 = t_l2.next;
+                t_new = t_new.next;
+            }
+            t_new.next = null;
+        }
+        if (t_l1 != null) {
+            t_new.next = t_l1;
+        }
+        if (t_l2 != null) {
+            t_new.next = t_l2;
+        }
+
+        return newHead;
     }
 }

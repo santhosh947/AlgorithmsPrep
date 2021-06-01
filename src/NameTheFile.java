@@ -6,6 +6,7 @@ public class NameTheFile {
 
         System.out.println(fileName);
         System.out.println(fileName + ".java");
+
     }
 
     private static String RenameFile(String fileName) {

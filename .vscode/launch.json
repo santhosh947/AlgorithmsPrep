@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch q4",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.Uber.q4",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch L14LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.L14LongestCommonPrefix",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch NameTheFile",
+            "request": "launch",
+            "mainClass": "NameTheFile",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
             "name": "Launch TrianglesInArray",
             "request": "launch",
             "mainClass": "Prc_2020_Q4.Uber.TrianglesInArray",

@@ -2,7 +2,7 @@ public class NameTheFile {
 
     public static void main(String[] args) {
         System.out.println("hi");
-        String fileName = RenameFile("Games Giant vertical game");
+        String fileName = RenameFile("14. Longest Common Prefix        ");
 
         System.out.println(fileName);
         System.out.println(fileName + ".java");

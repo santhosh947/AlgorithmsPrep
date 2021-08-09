@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch q1",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.Twilio.q1",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch L17LetterCombinationsofaPhoneNumber",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.L17LetterCombinationsofaPhoneNumber",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch romanNumerals",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.Twilio.romanNumerals",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberWithCodes",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.Twilio.NumberWithCodes",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOfHosts",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.Twilio.NumberOfHosts",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvalidParenthsis",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.Twilio.InvalidParenthsis",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinStack",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.MinStack",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q1",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.DropBox.Q1",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch q2",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.Amzn.q2",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch DropBoxTest",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.DropBoxTest",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
+            "name": "Launch L1573NumberofWaystoSplitaString",
+            "request": "launch",
+            "mainClass": "Prc_2020_Q4.L1573NumberofWaystoSplitaString",
+            "projectName": "LeetCode"
+        },
+        {
+            "type": "java",
             "name": "Launch q4",
             "request": "launch",
             "mainClass": "Prc_2020_Q4.Uber.q4",

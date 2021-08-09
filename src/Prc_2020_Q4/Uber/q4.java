@@ -20,8 +20,10 @@ public class q4 {
         for(int i: res){
             System.out.println(i);
         }
+        //3 -> DL(3,null,null)
 
         //3-5 1-4-2
+        //3-5-1-4-2-3
     }
 
     public static int[] restoreNumbers(int[][] pairs){
